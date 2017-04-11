@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Pridi');
+
+body{
+	
+	background-image: url("pic/male.jpg");
+	margin-top: 50px;
+	margin-left: 25px;
+
+	
+}
+
+
+p{
+	font-family: 'Pridi', serif;
+	font-size: 40px;
+	color: white;
+	border-style: inset;
+	
+	padding: 20px;
+	border-radius: 10px;
+
+}

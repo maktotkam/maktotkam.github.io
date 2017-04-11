@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learning VueJS</title>
+    <link rel="stylesheet" href="css/css/bulma.css">
+
+  </head>
+  <body>
+    <nav class="level">
+      <div class="level-item has-text-centered">
+
+      <img src="img/banner.jpg"
+
+    </div>
+    </nav>
+
+
+    <div class="tile is-ancestor">
+    <div class="tile is-vertical is-8">
+      <div class="tile">
+        <div class="tile is-parent is-vertical">
+          <article class="tile is-child notification is-primary">
+            <p class="title">Introduce</p>
+            <p class="subtitle"><br>Mr. Thanapol Thongworarat<br></p>
+          </article>
+          <article class="tile is-child notification is-warning">
+            <p class="title">Contact</p>
+            <p class="subtitle">093-453-6915<br>
+213/47 Jaransanitwong Road.<br>
+Bangkok noi District.<br>
+Bangkok 10700<br>
+maktotkam@hotmail.com</p>
+          </article>
+        </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-info">
+            <figure class="image is-4by3">
+              <img src="img/profile.jpg">
+            </figure>
+          </article>
+        </div>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification is-danger">
+          <p class="title">Education</p>
+          <p class="subtitle"><li>Kasetsart University Bangkhen 2013-2017
+</li>
+          <li>Taweethapisek school
+2008-2013
+</li></p>
+        </article>
+      </div>
+    </div>
+    <div class="tile is-parent">
+      <article class="tile is-child notification is-success">
+        <div class="content">
+          <p class="title">Other Lab</p>
+          <p class="subtitle">
+            <li><a href="Lab/Lab01/5610404380/5610404380.html"><font color="white">Lab1</a></font></li>
+            <li><a href="Lab/Lab02/5610404380/index.html"><font color="white">Lab2</a></font></li>
+            <li><a href="Lab/Lab03/5610404380/index.html"><font color="white">Lab3</a></font></li>
+            <li><a href="Lab/Lab04/5610404380/page.html"><font color="white">Lab4</a></font></li>
+            <li><a href="Lab/Lab05/5610404380/page.html"><font color="white">Lab5</a></font></li>
+            <li><a href="Lab/Lab06/5610404380/page.html"><font color="white">Lab6</a></font></li>
+            <li><a href="Lab/Lab07/5610404380/page.html"><font color="white">Lab7</a></font></li>
+          </p>
+        </div>
+      </article>
+    </div>
+  </div>
+
+    <script src="js/vue-2.2.6.js" charset="utf-8"></script>
+    <script>
+
+      var box1 = new Vue({
+        el: '#vue-app',
+        data: {
+          isModeCreate:false,
+          students: [],
+          formStudent:{
+            code: '',
+            firstname: '',
+            lastname: '',
+            gender: '',
+            isLive: true
+
+          }
+        }
+
+
+  });
+    </script>
+  </body>
+</html>

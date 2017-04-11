@@ -1,0 +1,182 @@
+
+/*font-family: 'Sansita', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Sansita:400i');
+
+html {
+	background: transparent url(garden-footer.png) no-repeat bottom;
+	background-size: 200%;
+	background-color: #ABEBFF	;
+	margin: 0 15% 0 15%;
+	padding: 0;
+
+	}
+
+header {
+
+		background: transparent url(flowers-banner.jpg) no-repeat top left;
+		background-size: 100%;
+
+	}
+
+.page-wrapper {
+background-color: #E7FFE5;
+border: 2px black;
+}
+
+h1,h2{
+	margin: auto;
+	text-align: right;
+	width: 60%;
+	padding: 10px;
+	color: #E3BB20;
+	}
+	h1{
+		font-size: 42px;
+		}
+
+.summary {
+		background-color: #D1FF81 ;
+    width: 150px;
+		height: 557px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+		float: left;
+
+
+}
+
+.summary p {
+	font: italic 1.25em/2 georgia;
+	text-align: center;
+	}
+.preamble,.explanation{
+	border: 1px
+	text-align: justify;
+		padding-left: 20px;
+		padding-right: 20px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 18.1px;
+
+	}
+	.preamble h3,.explanation h3 {
+		font-family: 'Sansita', sans-serif;
+		font-size: 1.8em;
+		font-weight: normal;
+	}
+
+	.participation,.benefits{
+		text-align: justify;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-family: 'Oswald', sans-serif;
+			font-size: 18.1px;
+
+		}
+		.participation h3,.benefits h3 {
+			font-family: 'Sansita', sans-serif;
+			font-size: 1.8em;
+			font-weight: normal;
+		}
+		.requirements{
+			text-align: justify;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-family: 'Oswald', sans-serif;
+				font-size: 18.1px;
+
+			}
+			.requirements h3 {
+				font-family: 'Sansita', sans-serif;
+				font-size: 1.8em;
+				font-weight: normal;
+			}
+			footer {
+  clear: both;
+  padding: 3em 10%;
+  color: #fff;
+  background: #134347;
+  text-align: center;
+}
+footer a {
+  display: inline-block;
+  overflow: hidden;
+  width: 40px;
+  height: 20px;
+  padding: 0 0 0 0;
+  margin: 0 0.5em;
+  position: relative;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+footer a:hover, footer a:focus {
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+footer a:visited {
+  color: rgba(255, 255, 255, 0.2);
+}
+footer a::before {
+  display: block;
+  position: absolute;
+  top: 3px;
+  left: 0;
+  overflow: visible;
+  font-size: 36px;
+  text-indent: 0;
+
+  /* icomoon.io defaults */
+  font-family: 'verdemoderna';
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+}
+.sidebar {
+  background: #edf4f0;
+}
+.sidebar h3 {
+  display: none;
+}
+.sidebar a {
+  color: #607476;
+  text-decoration: none;
+}
+  .sidebar a:hover, .sidebar a:focus {
+    color: #49968e;
+  }
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.design-selection {
+    position: fixed;
+    top: 125px;
+    right: 0;
+    width: 15.5%;
+    margin: 0;
+    overflow: visible;
+		background-color: white;
+  }
+	.zen-resources{
+		position: fixed;
+    top: 125px;
+    left: 0;
+    width: 15.5%;
+    margin: 0;
+    overflow: visible;
+		background-color: white;
+	}
+  .sidebar li {
+    float: none;
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 10% 0 5%; /* 0 10% 0 5% of total width */
+  }
+
+}

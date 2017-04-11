@@ -1,0 +1,45 @@
+
+body{
+	
+	background-image: url("pic/default.jpg");
+	margin-top: 50px;
+	margin-left: 25px;
+
+	
+}
+
+p{
+	border-style: inset;
+	
+	padding: 20px;
+	border-radius: 10px;
+
+}
+#submit{
+	margin-left: 100px;
+}
+
+
+#firstnamein{
+
+	margin-left: 20px;
+
+}
+
+#lastnamein{
+	margin-left: 50px;
+}
+
+
+
+#submit{
+	margin-left: 400px;
+}
+#cancel{
+	margin-left: 10px;
+	
+}
+
+input{
+	margin-left: 10px;
+}
